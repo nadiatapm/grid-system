@@ -1,85 +1,103 @@
-.container{
+.container{         /*1ºrow logo+menu*/
 	width:100px;
 	max-width:1000%;
 	margin: 0px auto;
-}
-header{
-	background-color:#454040;     /*encabezado y menu*/
+	background-color:#695C5C;
+	
 } 
-
-.logo{
-	width:10%;
-	margin-left:0;
+ul li{
+	list-style:none;
+	float:left;
+	margin-top:8%; 
+	margin-right:2%;
+	margin-left:1%;
 }
 
 .menu{
-	list-style:none;
-	float:left;
-	padding:17px;
-	margin-top:60px;     
+	color:white;
+	text-decoration:none;
 }
 
-section.row{
-	background-color:#E7E0E0;    /* 1ºfila 4 imagenes*/
-	margin:auto;
+.fondo{           /*2ºrow titulo+link*/
+      background-color:whitesmoke;
+
 }
 
-.cuatro{
+.titulo{
+	padding:10px;
+      font-family:'Oswald', sans-serif;
+}
+
+.uno{
+	font-family:'Oswald', sans-serif;
+	text-decoration:none;
+	font-size:10px;
+}
+.cuatro{            /*3ºrow 4 fotos*/  
 	width:100%;
 	margin:auto; 
 	padding:0;
 	border:solid white;
 }
-
-.imagen{
-	width: 100%;
-}
-
-a li{
-     color:white;
-}
-
-.titulo{            /*2ºfila titulo y link hacer borde bottom*/
-      padding:10px;
-      font-family:'Oswald', sans-serif;
-}
-
-.link{
-	font-family:'Oswald', sans-serif;
-	text-decoration:none;
-	margin-left:170px;
-	margin-bottom:100px; 
-}
-
-.linkdos{
+.dos{
 	font-family:'Oswald', sans-serif;
 	text-decoration:none;
 	text-align:center;
 	margin:30px;
 	padding:6px;
 }
- 
-.seccion{                 /*fotos hacer margen cambiar letra */
-	margin-top:60px;
-	left:30px;
-}               
-.imagen{
+.imagen{       /*secciòn fotos*/
+	width:100%;
 	padding:2px;
 	border:1px solid grey;
 }  
 
-.linktres{
+.tres{
 	font-family:Arial;
 	font-size:12px;
 	text-decoration:none;
 	text-align:center;
 	margin:8px;
 }
-
-.row{
-	float:right; 
-	margin-top:0px;
+.fotos{
+	background-color:whitesmoke;
+	padding:5%;
 }
+/*sidebar*/
+.icono{
+	width:8%;
+}
+.derecha{
+	float:right;
+}
+
+.linea {
+	border-bottom:1px solid grey; 
+}
+.footer{
+	background-color:#695C5C;
+	text-align:center;
+	padding:5%;
+}
+.lista{
+	font-family:'Oswald', sans-serif;
+	text-decoration:none;
+	font-size:10px;
+	margin-right:2%;
+
+}
+.parrafo{
+	font-family:'Oswald', sans-serif;
+	font-size:16px;
+}
+.porfin{
+	font-family:'Oswald', sans-serif;
+	font-size:10px;
+	margin-right:2%;
+	margin-top:3%;
+}
+
+
 
 
 
